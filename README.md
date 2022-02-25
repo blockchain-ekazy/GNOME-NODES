@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+#![GNOME NODE](https://user-images.githubusercontent.com/100062048/155754612-de179897-86cb-459e-ae3a-99ad17bd7d6d.png)
+ Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
