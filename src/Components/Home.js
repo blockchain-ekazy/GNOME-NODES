@@ -24,7 +24,15 @@ export default function Home() {
                       <div className="psev">
                         <p className="psm text-white text-right mt-4">
                           MaximumMintsPerAddress:3<br></br>
-                          ContractAddress:XXXXXXX.....
+                          ContractAddress:
+                          <a
+                            className="text-warning"
+                            href="https://snowtrace.io/address/0xd9ba57d5fcaf091bf5c1c8eaecb23533648fb5da"
+                            style={{ cursor: "pointer" }}
+                            target="_blank"
+                          >
+                            0xD9bA57d5F....B23533648fb5DA
+                          </a>
                         </p>
                       </div>
                     </div>
@@ -33,14 +41,12 @@ export default function Home() {
                 <img className="imghead" src={bg1}></img>
                 <br />
                 <br />
-                {/* <h1 className=" centered text-white h1">Cash <span className='Tclr'>Crabs</span></h1> */}
                 <h2 className=" hod text-white">
                   PRICE PER GNOME NFT: 1AVAX + GAS:{" "}
                 </h2>
 
                 <div className="text-center ">
                   <br></br>
-                  {/* <button type="button" class="Wbtn btn btn-lg px-5 mb-5">CONNECT YOUR WALLET</button> */}
                   {true ? <Mintbtn /> : ""}
                   <div className="psev">
                     <p className="pso text-white mt-5">
@@ -54,19 +60,31 @@ export default function Home() {
                       <div className="col-12">
                         <div className="container text-center py-2 text-white  ">
                           <p>
-                            <a href=" https://discord.gg/cashcrabs">
+                            <a
+                              href=" https://discord.com/invite/jxJCkJXTzx"
+                              target="_blank"
+                            >
                               <i className="fab fa-discord Footer px-1"></i>
                             </a>
-                            <a href="https://twitter.com/CashCrabsNFT">
+                            <a
+                              href="https://twitter.com/NftGnome"
+                              target="_blank"
+                            >
                               <i className=" px-1 Footer fab fa-twitter"></i>
                             </a>
-                            <a href="https://opensea.io/collection/cash-crabs">
+                            <a
+                              href="https://www.instagram.com/nftgnome/"
+                              target="_blank"
+                            >
+                              <i className=" px-1 Footer fab fa-instagram"></i>
+                            </a>
+                            {/* <a href="https://opensea.io/collection/cash-crabs">
                               <img
                                 src={os}
                                 className="px-1"
                                 style={{ width: "25px" }}
                               />
-                            </a>
+                            </a> */}
                             <span className="px-1 Footer">
                               © 2022, GNOME NODES
                             </span>
